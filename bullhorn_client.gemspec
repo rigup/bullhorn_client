@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'bullhorn_client/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "bullhorn_client"
+  gem.name          = "rigup_bullhorn_client"
   gem.version       = BullhornClient::VERSION
-  gem.authors       = ["Dennis Kuczynski"]
-  gem.email         = ["dennis.kuczynski@gmail.com"]
+  gem.authors       = ["Dennis Kuczynski", "Matt Lewis"]
+  gem.email         = ["dennis.kuczynski@gmail.com", "matt.lewis@rigup.com"]
   gem.description   = %q{Example ruby client for Bullhorn ATS SOAP API}
   gem.summary       = %q{Example ruby client for Bullhorn ATS SOAP API}
   gem.homepage      = ""

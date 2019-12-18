@@ -4,3 +4,4 @@ doc
 *.gem
 
 spec/rails_app/log
+.idea
