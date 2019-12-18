@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'bullhorn_client/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "rigup_bullhorn_client"
+  gem.name          = "bullhorn_client"
   gem.version       = BullhornClient::VERSION
   gem.authors       = ["Dennis Kuczynski", "Matt Lewis"]
   gem.email         = ["dennis.kuczynski@gmail.com", "matt.lewis@rigup.com"]
